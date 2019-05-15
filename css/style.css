@@ -9,7 +9,6 @@ body{
 
 /* Global */
 .container{
-  width: 70%;
   margin: auto;
   overflow: hidden;
   text-align: center;
@@ -107,6 +106,7 @@ header a:hover{
 #top_tracks{
   background: url('../img/bg1.jpg') 0;
   border-bottom: #4d4d33 3px solid;
+  height: 1200px;
 }
 
 #top_tracks .box{
@@ -167,6 +167,12 @@ header a:hover{
 #products{
   background-image: url('../img/Shop.jpg');
   border-bottom: #4d4d33 3px solid;
+
+  width: 100%;
+}
+
+#products .container{
+  min-height: 400px;
 }
 
 #products .CDforsale img{
@@ -197,8 +203,11 @@ header a:hover{
 
 #products button{
   position: relative;
-  margin-right: 40px;
-  left: 70px;
+
+  position: relative;
+  top: 50%;
+  right: 40%;
+  transform: translate(-50%, -50%);
 }
 
 /*Showcase1(About Me)*/

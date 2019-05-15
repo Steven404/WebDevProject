@@ -2,10 +2,8 @@
 
 $user = 'root';
 $pass ='';
-$db = 'items';
+$dbName = 'items';
 
-$db = new mysqli('localhost', $user, $pass, $db) or die("Unable to connect");
-
-echo"Connected!";
+$db = new mysqli('localhost', $user, $pass, $dbName) or die("Unable to connect");
 
  ?>
