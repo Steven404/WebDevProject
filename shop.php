@@ -55,12 +55,13 @@
       <div class="container">
         <?php while ($product=mysqli_fetch_assoc($AvailableCDs)) :?>
         <div class="CDforsale">
-          <span class="price">$<?=print_r($product['PRICE'], TRUE); ?></span>
-          <span><?=print_r($product['PRODUCT_NAME'], TRUE); ?></span>
+          <a class="price">$<?=print_r($product['PRICE'], TRUE); ?></a>
+          <a class="PrName"><?=print_r($product['PRODUCT_NAME'], TRUE); ?></a>
+          <a class="Available">In-Stock: <?=print_r($product['AVAILABLE'], TRUE); ?></a>
           <img src="<?=print_r($product['img'], TRUE);?>" alt="<?=print_r($product['PRODUCT_NAME'], TRUE); ?>">
           <button class="button1 bttn-unite bttn-md" type="button">Add to cart</button>
         </div>
-      <?php endwhile; ?>
+        <?php endwhile;?>
       </div>
     </section>
 

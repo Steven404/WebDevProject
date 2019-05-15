@@ -4,12 +4,13 @@ body{
   line-height:2;
   padding:0;
   margin:0;
-  background: url('../img/asfalt-dark.png');
+  background: url('../img/asfalt-dark.ng');
 }
 
 /* Global */
 .container{
-  margin: auto;
+  width: 70%;
+  margin: 0 auto;
   overflow: hidden;
   text-align: center;
   position: relative;
@@ -37,7 +38,7 @@ header a{
 }
 
 header ul{
-  margin: 0;
+  margin-right: 40px;
   padding: 0;
 }
 
@@ -50,6 +51,7 @@ header li{
 #StevenHGrey1{
   float: left;
   margin-bottom: 20px;
+  margin-left: 40px;
 }
 
 header #StevenHGrey1 h1{
@@ -106,7 +108,7 @@ header a:hover{
 #top_tracks{
   background: url('../img/bg1.jpg') 0;
   border-bottom: #4d4d33 3px solid;
-  height: 1200px;
+  min-height: 400px;
 }
 
 #top_tracks .box{
@@ -167,47 +169,35 @@ header a:hover{
 #products{
   background-image: url('../img/Shop.jpg');
   border-bottom: #4d4d33 3px solid;
-
-  width: 100%;
-}
-
-#products .container{
-  min-height: 400px;
-}
-
-#products .CDforsale img{
-   border-radius: 20px;
-   border: 3px solid #8ac1ff;
-   transition: all 0.3s ease-in-out;
-   width: 50%;
-   /*opacity: 0.9;*/
+  min-height: 1000px;
 }
 
 #products .CDforsale{
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
   float: left;
-  text-align: center;
-  text-decoration: none;
-  margin: 15px;
-  transition: all 0.3s ease-in-out;
-  width: 40%;
+
 }
 
-#products span{
-  vertical-align: bottom;
-  display: inline-block;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.CDforsale img{
+  width: 350px;
+  display: block;
+  border-radius: 20px;
+  border: 3px solid #8ac1ff;
+  margin: 0 auto;
 }
 
-#products button{
-  position: relative;
-
-  position: relative;
-  top: 50%;
-  right: 40%;
-  transform: translate(-50%, -50%);
+.CDforsale a{
+  margin-right: 20px;
+  margin-left: 20px;
+  background-image: url('../img/wood-pattern.png');
+  background-color: rgba(242, 144, 38, 0.8);
+  border-radius: 10px;
+  border: 1px solid #8ac1ff;
+  color: #333333;
+  font-weight: 450;
+  text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.2);
 }
 
 /*Showcase1(About Me)*/
