@@ -4,7 +4,6 @@ body{
   line-height:2;
   padding:0;
   margin:0;
-  background: url('../img/asfalt-dark.png');
 }
 
 /* Global */
@@ -216,9 +215,7 @@ header a:hover{
 
 /* Cart Design*/
 
-.Cart{
-  background: url('../img/shop (2).jpg') 0;
-}
+
 
 .cart-header {
     font-weight: bold;
@@ -243,10 +240,6 @@ header a:hover{
     width: 45%;
 }
 
-.cart-items{
-  display: flex;
-}
-
 .cart-price {
     width: 20%;
     font-size: 1.2em;
@@ -259,7 +252,7 @@ header a:hover{
 
 .cart-item-title {
     color: #1a1a1a;
-    margin-left: 40px;
+    margin-left: 5px;
     font-size: 1.2em;
 }
 
@@ -295,7 +288,7 @@ header a:hover{
 }
 
 .cart-row:last-child {
-    border-bottom: 3px solid black;
+    border-bottom: 3 px solid black;
 }
 
 .cart-row:last-child .cart-column {
