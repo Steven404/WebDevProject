@@ -1,0 +1,9 @@
+INSERT INTO `products` (`id`, `PRODUCT_NAME`, `PRICE`, `AVAILABLE`, `img`) VALUES (NULL, 'Black T-Shirt', '9.99', '13', 'img/black_t-shirt.jpg');
+
+INSERT INTO `products` (`id`, `PRODUCT_NAME`, `PRICE`, `AVAILABLE`, `img`) VALUES (NULL, 'Blue T-Shirt', '14.99', '13', 'img/blue_t-shirt.jpg');
+
+INSERT INTO `products` (`id`, `PRODUCT_NAME`, `PRICE`, `AVAILABLE`, `img`) VALUES (NULL, 'Album 1', '2.99', '3', 'img/cd.jpg');
+
+INSERT INTO `products` (`id`, `PRODUCT_NAME`, `PRICE`, `AVAILABLE`, `img`) VALUES (NULL, 'Album 2', '4.99', '8', 'img/cd.jpg');
+
+INSERT INTO `products` (`id`, `PRODUCT_NAME`, `PRICE`, `AVAILABLE`, `img`) VALUES (NULL, 'Yellow T-Shirt', '9.99', '7', 'img/yellow_t-shirt.jpg');
