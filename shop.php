@@ -65,6 +65,32 @@
       </div>
     </section>
 
+    <section class="Cart content-section">
+      <div class="container">
+        <h2 class="section-header">CART</h2>
+          <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+          </div>
+          <div class="cart-items">
+            <div class="cart-item cart-column">
+              <img class="cart-item-image" src="img/yellow_t-shirt.jpg" width="100" height="100">
+            <span class="cart-item-title">Yellow_t-shirt</span>
+            </div>
+            <span class="cart-price cart-column">9.99</span>
+            <div class="cart-quantity cart-column">
+              <input class="cart-quantity-input" type="number" value="1">
+              <button class="btn bttn-pill bttn-danger" type="button">REMOVE</button>
+            </div>
+          </div>
+          <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+          </div>
+          <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+      </div>
     <footer>
       <h1>Steven H. Grey, Copyright &copy; 2019</h1>
       <a href="https://www.facebook.com/StevenHGrey/" target="_blank">Facebook</a>

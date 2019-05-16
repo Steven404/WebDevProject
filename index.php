@@ -16,8 +16,6 @@
 
     <link href="css/hover.css" rel="stylesheet" media="all">
 
-    <link rel="stylesheet" href="./css/unite.css">
-
     <!--javascript(wow)-->
     <script src="js/wow.min.js"></script>
       <script>

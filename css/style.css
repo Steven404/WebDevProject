@@ -4,7 +4,7 @@ body{
   line-height:2;
   padding:0;
   margin:0;
-  background: url('../img/asfalt-dark.ng');
+  background: url('../img/asfalt-dark.png');
 }
 
 /* Global */
@@ -13,7 +13,7 @@ body{
   margin: 0 auto;
   overflow: hidden;
   text-align: center;
-  position: relative;
+
 }
 
 /* Header */
@@ -21,7 +21,7 @@ header{
   background-image: url('../img/asfalt-dark.png');
   color: #fff;
   background-color: #8ac1ff;
-  padding-top: 30px;
+
   min-height: 70px;
   border-bottom: #4d4d33 3px solid;
   border-top: #4d4d33 3px solid;
@@ -49,6 +49,7 @@ header li{
 }
 
 #StevenHGrey1{
+  padding-top: 30px;
   float: left;
   margin-bottom: 20px;
   margin-left: 40px;
@@ -60,7 +61,7 @@ header #StevenHGrey1 h1{
 }
 header nav{
   float: right;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 header .current a{
@@ -88,7 +89,7 @@ header a:hover{
   width: 100%;
   text-align: center;
   color: #fff;
-  border-bottom: #8ac1ff 3px solid;
+  -bottom: #8ac1ff 3px solid;
 }
 
 .showcase h1{
@@ -128,9 +129,19 @@ header a:hover{
   transform: scale(1.05);
 }
 
-.button{
+#top_tracks.button{
   text-decoration: none;
   color: #2c2c2c;
+}
+
+#top_tracks a{
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+#top_tracks a:hover{
+  transform: scale(1.05);
+  color: #fff;
 }
 
 .ht{
@@ -166,6 +177,9 @@ header a:hover{
 
 /*Shop*/
 
+
+/* Products */
+
 #products{
   background-image: url('../img/Shop.jpg');
   border-bottom: #4d4d33 3px solid;
@@ -198,6 +212,118 @@ header a:hover{
   color: #333333;
   font-weight: 450;
   text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.2);
+}
+
+/* Cart Design*/
+
+.Cart{
+  background: url('../img/shop (2).jpg') 0;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-items{
+  display: flex;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #1a1a1a;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #1a1a1a;
+    margin-left: 40px;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 3px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 3px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
 }
 
 /*Showcase1(About Me)*/

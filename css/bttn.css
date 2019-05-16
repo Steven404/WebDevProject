@@ -920,7 +920,7 @@
   margin: 0;
   padding: 0;
   border-width: 0;
-  border-color: transparent;
+  border-color: #ff0000;
   background: transparent;
   font-weight: 400;
   cursor: pointer;
@@ -958,12 +958,12 @@
 }
 .bttn-pill:hover,
 .bttn-pill:focus {
-  box-shadow: 0 1px 8px rgba(58,51,53,0.3);
-  color: #fff;
+  box-shadow: 0 1px 8px rgba(58,51,53,0.5);
+  color: #333333;
   -webkit-transition: all 0.5s cubic-bezier(0.02, 0.01, 0.47, 1);
   transition: all 0.5s cubic-bezier(0.02, 0.01, 0.47, 1);
-  -webkit-transform: scale(1.1) translate3d(0, 0, 0);
-          transform: scale(1.1) translate3d(0, 0, 0);
+  -webkit-transform: scale(1.05) translate3d(0, 0, 0);
+          transform: scale(1.05) translate3d(0, 0, 0);
 }
 .bttn-pill:hover:before,
 .bttn-pill:focus:before {
@@ -982,8 +982,8 @@
   transition: opacity 0.2s 0.05s cubic-bezier(0.02, 0.01, 0.47, 1), -webkit-transform 0.2s 0.05s cubic-bezier(0.02, 0.01, 0.47, 1);
   transition: transform 0.2s 0.05s cubic-bezier(0.02, 0.01, 0.47, 1), opacity 0.2s 0.05s cubic-bezier(0.02, 0.01, 0.47, 1);
   transition: transform 0.2s 0.05s cubic-bezier(0.02, 0.01, 0.47, 1), opacity 0.2s 0.05s cubic-bezier(0.02, 0.01, 0.47, 1), -webkit-transform 0.2s 0.05s cubic-bezier(0.02, 0.01, 0.47, 1);
-  -webkit-transform: translate(50%, 0) scale(1.1);
-          transform: translate(50%, 0) scale(1.1);
+  -webkit-transform: translate(50%, 0) scale(1.05);
+          transform: translate(50%, 0) scale(1.05);
 }
 .bttn-pill.bttn-xs {
   padding: 3px 8px;
