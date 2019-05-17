@@ -88,7 +88,7 @@ header a:hover{
   width: 100%;
   text-align: center;
   color: #fff;
-  -bottom: #8ac1ff 3px solid;
+  border-bottom: #8ac1ff 3px solid;
 }
 
 .showcase h1{
@@ -105,44 +105,43 @@ header a:hover{
 
 /*Top Tracks*/
 
-#top_tracks{
+.toptracks{
   background: url('../img/bg1.jpg') 0;
   border-bottom: #4d4d33 3px solid;
   min-height: 400px;
+  text-align: center;
 }
 
-#top_tracks .box{
-  float: left;
+.toptracks .box{
+  display: inline-block;
   text-align: center;
   text-decoration: none;
   margin: 15px;
   transition: all 0.3s ease-in-out;
+  
 }
-#top_tracks .box img{
+.toptracks .box img{
    border-radius: 20px;
    border: 3px solid #8ac1ff;
    transition: all 0.3s ease-in-out;
+   max-width: 300px;
 }
 
-.idk {
-	width: 50%
-}
-
-#top_tracks .box img:hover{
+.topracks .box img:hover{
   transform: scale(1.05);
 }
 
-#top_tracks.button{
+.toptracks.button{
   text-decoration: none;
   color: #2c2c2c;
 }
 
-#top_tracks a{
+.toptracks a{
   text-decoration: none;
   color: #2c2c2c;
 }
 
-#top_tracks a:hover{
+.toptracks a:hover{
   transform: scale(1.05);
   color: #fff;
 }
@@ -193,28 +192,32 @@ header a:hover{
   margin-top: 10px;
   margin-left: 25px;
   margin-right: 25px;
-  float: left;
-
+  display: inline-block;
+  max-width: 300px;
 }
 
 .CDforsale img{
-  width: 350px;
-  display: block;
+  width: 300px;
+  display: inline-block;
   border-radius: 20px;
   border: 3px solid #8ac1ff;
   margin: 0 auto;
 }
 
 .CDforsale a{
-  margin-right: 20px;
-  margin-left: 20px;
-  background-image: url('../img/wood-pattern.png');
-  background-color: rgba(242, 144, 38, 0.8);
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   border: 1px solid #8ac1ff;
-  color: #333333;
+  color: #006be6;
   font-weight: 450;
   text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.2);
+  font-size: 17px;
+}
+.button1{
+  top: 2px;
+  border: 1px solid #8ac1ff;
 }
 
 /* Cart Design*/
@@ -230,7 +233,7 @@ header a:hover{
 .cart-column {
     display: flex;
     align-items: center;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #8ac1ff;
     margin-right: 1.5em;
     padding-bottom: 10px;
     margin-top: 10px;
@@ -343,6 +346,7 @@ header a:hover{
   font-size: 50px;
   margin-bottom: 10px;
   text-shadow: 2px 2px 0px rgba(51, 51, 51, 0.7);
+  text-align: center;
 }
 
 .showcase1 p{

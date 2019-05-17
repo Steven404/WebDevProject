@@ -47,8 +47,6 @@
             <li><a href="index.php">Home</a></li>
             <li class="current"><a href="shop.php">Shop</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="cart.html">Cart</a></li>
-            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -62,7 +60,7 @@
           <a class="PrName"><?=print_r($product['PRODUCT_NAME'], TRUE); ?></a>
           <a class="Available">In-Stock: <?=print_r($product['AVAILABLE'], TRUE); ?></a>
           <img class="item-image" src="<?=print_r($product['img'], TRUE);?>" alt="<?=print_r($product['PRODUCT_NAME'], TRUE); ?>">
-          <button class="button1 bttn-unite bttn-md" type="button">Add to cart</button>
+          <button class="button1 bttn-gradient bttn-md" type="button">Add to cart</button>
         </div>
         <?php endwhile;?>
       </div>

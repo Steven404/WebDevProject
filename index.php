@@ -36,24 +36,22 @@
             <li class="current"><a href="index.php">Home</a></li>
             <li><a href="shop.php">Shop</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="cart.html">Cart</a></li>
-            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
-      <section class="showcase">
+      <section class="showcase fadeIn animated">
         <div class="container fadeInUp animated">
           <h1>Welcome to my official website!</h1>
           <p>This is my officials webpage. Here you can find links leading you to my music, information about me and my music, and my contact info!</p>
         </div>
       </section>
 
-      <section id="top_tracks">
+      <section class="toptracks fadeIn animated">
         <div class="container wow fadeIn animated" data-wow-delay="1s">
           <h2>Top tracks(Shorted by populatiry):</h2>
           <div class="box">
-            <img src="img/Hope.jpg" alt="Hope">
+            <img  src="img/Hope.jpg" alt="Hope">
             <div class="ht">
               <a href="https://distrokid.com/hyperfollow/stevenhgrey/hope" target="_blank" class="button hvr-grow">
                 Stream Now
@@ -62,7 +60,7 @@
 
           </div>
           <div class="box">
-            <img class=idk src="img/Summer Nights.jpg" alt="Summer Nights">
+            <img class="idk" src="img/Summer Nights.jpg" alt="Summer Nights">
             <div class="ht">
               <a href="https://distrokid.com/hyperfollow/stevenhgrey/summer-nights" target="_blank" class="button hvr-grow">
                 Stream Now
