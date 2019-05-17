@@ -52,7 +52,7 @@
       </div>
     </header>
 
-    <section id="products">
+    <section class="products fadeIn animated">
       <div class="container">
         <?php while ($product=mysqli_fetch_assoc($AvailableCDs)) :?>
         <div class="CDforsale">

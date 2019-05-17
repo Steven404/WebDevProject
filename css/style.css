@@ -116,7 +116,7 @@ header a:hover{
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  margin: 15px;
+  margin: 20px;
   transition: all 0.3s ease-in-out;
   
 }
@@ -125,20 +125,22 @@ header a:hover{
    border: 3px solid #8ac1ff;
    transition: all 0.3s ease-in-out;
    max-width: 300px;
+   max-height: 300px;
 }
 
-.topracks .box img:hover{
+.box img:hover{
   transform: scale(1.05);
 }
 
 .toptracks.button{
-  text-decoration: none;
   color: #2c2c2c;
 }
 
 .toptracks a{
+  font-size:17px;
   text-decoration: none;
   color: #2c2c2c;
+  margin-bottom: 2px;
 }
 
 .toptracks a:hover{
@@ -156,6 +158,8 @@ header a:hover{
   transform: translate(-50%, -50%);
   border-radius: 15px;
   transition: all 0.3s ease-in-out;
+  width: 45%;
+  height: 50%;
 
 }
 
@@ -173,22 +177,19 @@ header a:hover{
   transition: 0.3s;
 }
 
-#top_tracks .box img{
-  width: 400px;
-}
 
 /*Shop*/
 
 
 /* Products */
 
-#products{
+.products{
   background-image: url('../img/Shop.jpg');
   border-bottom: #4d4d33 3px solid;
-  min-height: 1000px;
+  min-height: 1050px;
 }
 
-#products .CDforsale{
+.CDforsale{
   margin-top: 10px;
   margin-left: 25px;
   margin-right: 25px;
