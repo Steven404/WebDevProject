@@ -115,13 +115,17 @@ header a:hover{
   float: left;
   text-align: center;
   text-decoration: none;
-  margin: 19px;
+  margin: 15px;
   transition: all 0.3s ease-in-out;
 }
 #top_tracks .box img{
    border-radius: 20px;
    border: 3px solid #8ac1ff;
    transition: all 0.3s ease-in-out;
+}
+
+.idk {
+	width: 50%
 }
 
 #top_tracks .box img:hover{
@@ -317,6 +321,10 @@ header a:hover{
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
+}
+
+.content-section {
+	margin-bottom: 10px;
 }
 
 /*Showcase1(About Me)*/

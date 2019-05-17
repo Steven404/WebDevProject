@@ -1,3 +1,5 @@
+CREATE TABLE products (id int AUTO_INCREMENT PRIMARY KEY, PRODUCT_NAME varchar(255), AVAILABLE int(10), PRICE double(10,2), img varchar(255))
+
 INSERT INTO `products` (`id`, `PRODUCT_NAME`, `PRICE`, `AVAILABLE`, `img`) VALUES (NULL, 'Black T-Shirt', '9.99', '13', 'img/black_t-shirt.jpg');
 
 INSERT INTO `products` (`id`, `PRODUCT_NAME`, `PRICE`, `AVAILABLE`, `img`) VALUES (NULL, 'Blue T-Shirt', '14.99', '13', 'img/blue_t-shirt.jpg');

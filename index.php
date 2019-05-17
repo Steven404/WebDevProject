@@ -62,7 +62,7 @@
 
           </div>
           <div class="box">
-            <img src="img/Summer Nights.jpg" alt="Summer Nights">
+            <img class=idk src="img/Summer Nights.jpg" alt="Summer Nights">
             <div class="ht">
               <a href="https://distrokid.com/hyperfollow/stevenhgrey/summer-nights" target="_blank" class="button hvr-grow">
                 Stream Now

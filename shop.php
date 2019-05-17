@@ -81,7 +81,7 @@
         <strong class="cart-total-title">Total</strong>
         <span class="cart-total-price">$0</span>
       </div>
-      <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+      <button class="btn bttn-material-flat bttn-success btn-primary btn-purchase hvr-grow" type="button">PURCHASE</button>
     </section>
     <footer>
       <h1>Steven H. Grey, Copyright &copy; 2019</h1>
