@@ -17,6 +17,10 @@
 
 
     <link rel="stylesheet" href="./css/bttn.css">
+	
+	<script type="text/javascript" src="./jquery-3.4.1.min.js"></script>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--PHP-->
 
@@ -51,7 +55,7 @@
         </nav>
       </div>
     </header>
-
+	
     <section class="products fadeIn animated">
       <div class="container">
         <?php while ($product=mysqli_fetch_assoc($AvailableCDs)) :?>
@@ -79,13 +83,14 @@
         <strong class="cart-total-title">Total</strong>
         <span class="cart-total-price">$0</span>
       </div>
-      <button class="btn bttn-material-flat bttn-success btn-primary btn-purchase hvr-grow" type="button">PURCHASE</button>
+      <input class="btn bttn-material-flat bttn-success btn-primary btn-purchase hvr-grow" type="button submit" value="Purchase" onclick=></input>
     </section>
-    <footer>
-      <h1>Steven H. Grey, Copyright &copy; 2019</h1>
-      <a href="https://www.facebook.com/StevenHGrey/" target="_blank">Facebook</a>
-      <a href="https://www.instagram.com/stevenhgrey404/" target="_blank">Instagram</a>
-      <a href="https://www.youtube.com/channel/UCxNX7I_l_1GUABElzjPVKqg" target="_blank">Youtube</a>
-    </footer>
+
+      <footer>
+        <h1>Steven H. Grey, Copyright &copy; 2019</h1>
+        <a class="fa fa-facebook" href="https://www.facebook.com/StevenHGrey/" target="_blank"></a>
+        <a class="fa fa-instagram" href="https://www.instagram.com/stevenhgrey404/" target="_blank"></a>
+        <a class="fa fa-youtube" href="https://www.youtube.com/channel/UCxNX7I_l_1GUABElzjPVKqg" target="_blank"></a>
+      </footer>
   </body>
 </html>

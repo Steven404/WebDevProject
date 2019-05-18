@@ -22,6 +22,7 @@ function ready() {
   for (var i=0; i < addToCartButtons.length; i++){
     var button = addToCartButtons[i]
     button.addEventListener('click', addToCartClicked)
+	
   }
 
   document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
@@ -32,8 +33,18 @@ function purchaseClicked() {
   var cartItems = document.getElementsByClassName('cart-items')[0]
   while (cartItems.hasChildNodes()){
     cartItems.removeChild(cartItems.firstChild)
-  }
-  updateCartTotal()
+	updateCartTotal()
+	
+	
+	/*const xhr = new XMLHttpRequest();
+	
+	xhr.open("POST", "AlterColumn.php")
+		
+	xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
+	xhr.send("pr_name=Yellow T-Shirt")*/
+	
+	
+	}
 }
 
 function quantityChanged(event){
@@ -58,6 +69,7 @@ function addToCartClicked(event){
   var imagesrc = shopItem.getElementsByClassName('item-image')[0].src
   addItemToCart(title, price, imagesrc)
   updateCartTotal()
+  var lmao = document.getElementsByClassName('cart-item-title')[0]
 }
 
 function addItemToCart(title, price, imagesrc) {
@@ -80,7 +92,8 @@ function addItemToCart(title, price, imagesrc) {
     <div class="cart-quantity cart-column">
       <input class="cart-quantity-input" type="number" value="1">
       <button class="btn bttn-pill bttn-danger" type="button">REMOVE</button>
-    </div>`
+    </div>
+	<?php ?>`
   cartRow.innerHTML = cartRowContents
   cartItems.append(cartRow)
   cartRow.getElementsByClassName('bttn-danger')[0].addEventListener('click', removeCartItem)

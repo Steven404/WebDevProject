@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./css/animate.css">
 
     <link href="css/hover.css" rel="stylesheet" media="all">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--javascript(wow)-->
     <script src="js/wow.min.js"></script>
@@ -80,9 +82,9 @@
       </section>
       <footer>
         <h1>Steven H. Grey, Copyright &copy; 2019</h1>
-        <a href="https://www.facebook.com/StevenHGrey/" target="_blank">Facebook</a>
-        <a href="https://www.instagram.com/stevenhgrey404/" target="_blank">Instagram</a>
-        <a href="https://www.youtube.com/channel/UCxNX7I_l_1GUABElzjPVKqg" target="_blank">Youtube</a>
+        <a id="sm" style="margin-right: 5px; margin-left: 5px;" class="fa fa-facebook" href="https://www.facebook.com/StevenHGrey/" target="_blank"></a>
+        <a style="margin-right: 5px; margin-left: 5px;" class="fa fa-instagram" href="https://www.instagram.com/stevenhgrey404/" target="_blank"></a>
+        <a style="margin-right: 5px; margin-left: 5px;" class="fa fa-youtube" href="https://www.youtube.com/channel/UCxNX7I_l_1GUABElzjPVKqg" target="_blank"></a>
       </footer>
 
   </body>
