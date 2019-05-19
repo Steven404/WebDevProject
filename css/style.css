@@ -22,8 +22,8 @@ header{
   background-color: #8ac1ff;
 
   min-height: 70px;
-  border-bottom: #4d4d33 3px solid;
-  border-top: #4d4d33 3px solid;
+  border-bottom: #1a1a1a 3px solid;
+  border-top: #1a1a1a 3px solid;
 }
 
 header img{
@@ -66,6 +66,7 @@ header nav{
 header .current a{
   color: #000;
   font-weight: bold;
+  
 }
 
 header a{
@@ -100,14 +101,14 @@ header a:hover{
 
 .showcase p{
   font-size: 25px;
-  text-shadow: 2px 2px 0px rgba(51, 51, 51, 0.7);
+  text-shadow: 2px 2px 0px rgba(51, 51, 51, 0.5);
 }
 
 /*Top Tracks*/
 
 .toptracks{
   background: url('../img/bg1.jpg') 0;
-  border-bottom: #4d4d33 3px solid;
+  border-bottom: #1a1a1a 3px solid;
   min-height: 400px;
   text-align: center;
 }
@@ -185,7 +186,7 @@ header a:hover{
 
 .products{
   background-image: url('../img/Shop.jpg');
-  border-bottom: #4d4d33 3px solid;
+  border-bottom: #1a1a1a 3px solid;
   min-height: 1050px;
 }
 
@@ -334,12 +335,11 @@ header a:hover{
 /*Showcase1(About Me)*/
 
 .showcase1{
-  min-height: 600px;
   background: url('../img/AboutMe.jpg') no-repeat 0 -400px;
   width: 100%;
   text-align: center;
   color: #fff;
-  border-bottom: #4d4d33 3px solid;
+  border-bottom: #1a1a1a 3px solid;
 }
 
 .showcase1 h1{
@@ -355,15 +355,6 @@ header a:hover{
   text-shadow: 2px 2px 0px rgba(51, 51, 51, 0.7);
 }
 
-/*Spotify section(About me page)*/
-
-#Spotify{
-  min-height: 500px;
-}
-#Spotify img{
-  margin-top: 10px
-}
-
 /*Bottom of the page*/
 
 footer{
@@ -376,10 +367,11 @@ footer{
   background-color: #8ac1ff;
   text-align: center;
   margin: 3px;
+  border-bottom: #1a1a1a 3px solid;
 }
 
 footer h1{
   font-size: 20px;
-}
 
+}
 

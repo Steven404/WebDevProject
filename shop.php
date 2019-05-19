@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device=width">
-    <title>Steven H. Grey | Official</title>
+    <title>Shop | Available</title>
 
     <link rel="icon" type="img/png" href="img/MyLogo.png"/>
 
@@ -48,9 +48,9 @@
         </div>
         <nav>
           <ul>
-            <li><a href="index.php">Home</a></li>
+            <li><a style="text-shadow: 2px 2px 0px rgba(51, 51, 51, 0.5);" href="index.php">Home</a></li>
             <li class="current"><a href="shop.php">Shop</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a style="text-shadow: 2px 2px 0px rgba(51, 51, 51, 0.5);" href="about.html">About</a></li>
           </ul>
         </nav>
       </div>
@@ -86,11 +86,11 @@
       <input class="btn bttn-material-flat bttn-success btn-primary btn-purchase hvr-grow" type="button submit" value="Purchase" onclick=></input>
     </section>
 
-      <footer>
-        <h1>Steven H. Grey, Copyright &copy; 2019</h1>
-        <a class="fa fa-facebook" href="https://www.facebook.com/StevenHGrey/" target="_blank"></a>
-        <a class="fa fa-instagram" href="https://www.instagram.com/stevenhgrey404/" target="_blank"></a>
-        <a class="fa fa-youtube" href="https://www.youtube.com/channel/UCxNX7I_l_1GUABElzjPVKqg" target="_blank"></a>
+      <footer style="margin: 0px; border-bottom: #1a1a1a 3px solid; border-top: #1a1a1a 3px solid;">
+        <h1 style="text-shadow: 2px 2px 0px rgba(51, 51, 51, 0.5);">Steven H. Grey, Copyright &copy; 2019</h1>
+        <a style="margin-right: 5px; margin-left: 5px; text-decoration: none;" class="fa fa-facebook hvr-bounce-in" href="https://www.facebook.com/StevenHGrey/" target="_blank"></a>
+        <a style="margin-right: 5px; margin-left: 5px; text-decoration: none;" class="fa fa-instagram hvr-bounce-in" href="https://www.instagram.com/stevenhgrey404/" target="_blank"></a>
+        <a style="margin-right: 5px; margin-left: 5px; text-decoration: none;" class="fa fa-youtube hvr-bounce-in" href="https://www.youtube.com/channel/UCxNX7I_l_1GUABElzjPVKqg" target="_blank"></a>
       </footer>
   </body>
 </html>

@@ -36,8 +36,8 @@
         <nav>
           <ul>
             <li class="current"><a href="index.php">Home</a></li>
-            <li><a href="shop.php">Shop</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a style="text-shadow: 2px 2px 0px rgba(51, 51, 51, 0.5);" href="shop.php">Shop</a></li>
+            <li><a style="text-shadow: 2px 2px 0px rgba(51, 51, 51, 0.5);" href="about.html">About</a></li>
           </ul>
         </nav>
       </div>
@@ -49,7 +49,7 @@
         </div>
       </section>
 
-      <section class="toptracks fadeIn animated">
+      <section style="border-bottom: #1a1a1a 3px solid;" class="toptracks fadeIn animated">
         <div class="container wow fadeIn animated" data-wow-delay="1s">
           <h2>Top tracks(Shorted by populatiry):</h2>
           <div class="box">
@@ -80,11 +80,11 @@
         </div>
 
       </section>
-      <footer>
-        <h1>Steven H. Grey, Copyright &copy; 2019</h1>
-        <a id="sm" style="margin-right: 5px; margin-left: 5px;" class="fa fa-facebook" href="https://www.facebook.com/StevenHGrey/" target="_blank"></a>
-        <a style="margin-right: 5px; margin-left: 5px;" class="fa fa-instagram" href="https://www.instagram.com/stevenhgrey404/" target="_blank"></a>
-        <a style="margin-right: 5px; margin-left: 5px;" class="fa fa-youtube" href="https://www.youtube.com/channel/UCxNX7I_l_1GUABElzjPVKqg" target="_blank"></a>
+      <footer style="margin: 0px; border-bottom: #1a1a1a 3px solid;">
+        <h1 style="text-shadow: 2px 2px 0px rgba(51, 51, 51, 0.5);">Steven H. Grey, Copyright &copy; 2019</h1>
+        <a style="margin-right: 5px; margin-left: 5px; text-decoration: none;" class="fa fa-facebook hvr-bounce-in" href="https://www.facebook.com/StevenHGrey/" target="_blank"></a>
+        <a style="margin-right: 5px; margin-left: 5px; text-decoration: none;" class="fa fa-instagram hvr-bounce-in" href="https://www.instagram.com/stevenhgrey404/" target="_blank"></a>
+        <a style="margin-right: 5px; margin-left: 5px; text-decoration: none;" class="fa fa-youtube hvr-bounce-in" href="https://www.youtube.com/channel/UCxNX7I_l_1GUABElzjPVKqg" target="_blank"></a>
       </footer>
 
   </body>
